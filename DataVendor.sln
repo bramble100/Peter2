@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2019
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataVendor", "DataVendor\DataVendor.csproj", "{D260BC27-F2B7-4978-BD2A-4B1830F48F8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataVendorUnitTests", "DataVendorUnitTests\DataVendorUnitTests.csproj", "{2DB92034-6866-4A37-A319-F795B76D63D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D260BC27-F2B7-4978-BD2A-4B1830F48F8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D260BC27-F2B7-4978-BD2A-4B1830F48F8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D260BC27-F2B7-4978-BD2A-4B1830F48F8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D260BC27-F2B7-4978-BD2A-4B1830F48F8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DB92034-6866-4A37-A319-F795B76D63D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DB92034-6866-4A37-A319-F795B76D63D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DB92034-6866-4A37-A319-F795B76D63D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DB92034-6866-4A37-A319-F795B76D63D1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D25C46F9-0BFF-4BE0-B842-04C0CA41B5A5}
+	EndGlobalSection
+EndGlobal

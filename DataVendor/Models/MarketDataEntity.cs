@@ -1,5 +1,4 @@
-﻿using StockDataModels;
-using System;
+﻿using System;
 using System.Collections.Generic;
 
 namespace DataVendor.Models
@@ -7,7 +6,7 @@ namespace DataVendor.Models
     /// <summary>
     /// Stores the data of an entity downloaded from the data vendor page.
     /// </summary>
-    internal class MarketDataEntity : IMarketDataEntity, IComparable<MarketDataEntity>, IEquatable<MarketDataEntity>
+    public class MarketDataEntity : IMarketData, IComparable<MarketDataEntity>, IEquatable<MarketDataEntity>
     {
         public decimal ClosingPrice { get; set; }
         public DateTime DateTime { get; set; }

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
 
-namespace DataVendor.Models.Implementations
+namespace DataVendor.Models
 {
     /// <summary>
     /// Stores the downloaded html contents by the name of the stock exchanges.
